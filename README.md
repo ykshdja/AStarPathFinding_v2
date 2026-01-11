@@ -26,19 +26,19 @@ The implementation is modular, allowing heuristics to be swapped easily using Ja
 
 ---
 
-## Project Structure
+## File Structure
 
 ```text
-├── AStarPathFinding.java
-├── Node.java
-├── ManhattanHeuristic.java
-├── EuclideanHeuristic.java
-├── map_data1.txt
-├── map_data2.txt
-├── map_data3.txt
+├── AStarPathFinding.java      # Main A* algorithm implementation
+├── Node.java                 # Node representation for the grid
+├── ManhattanHeuristic.java   # Manhattan distance heuristic
+├── EuclideanHeuristic.java   # Euclidean distance heuristic
+├── map_data1.txt             # Sample map input
+├── map_data2.txt             # Sample map input
+├── map_data3.txt             # Sample map input
 ├── .gitignore
-└── .idea / *.iml
-```text
+└── .idea / *.iml             # IDE configuration files
+
 
 
 ---
