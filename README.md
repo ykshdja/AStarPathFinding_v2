@@ -38,19 +38,4 @@ The implementation is modular, allowing heuristics to be swapped easily using Ja
 ├── map_data3.txt             # Sample map input
 ├── .gitignore
 └── .idea / *.iml             # IDE configuration files
----
-
-## Heuristics
-
-- **Manhattan Heuristic**  
-  Uses `|x1 - x2| + |y1 - y2|`, suitable for grid-based movement without diagonals.
-
-- **Euclidean Heuristic**  
-  Uses straight-line distance, suitable when diagonal movement is allowed.
-
-Both heuristics implement:
-
-```java
-BiFunction<Node, Node, Integer>
-
 
